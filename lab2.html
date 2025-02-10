@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>INST377 Form</title>
+        <style>
+            body {
+                background-color: lightskyblue;
+            }
+
+            .title{
+                font-size: 20px;
+                margin: 10px;
+            }
+
+            .textboxes {
+                margin-left: 10px;
+                font-size: 30px;
+            }
+
+            input{
+                background-color:antiquewhite;
+            }
+
+            input[type="submit"] {
+                background-color: grey;
+                color: whitesmoke;
+                margin-top: 25px;
+            }
+
+            input[type="submit"]:hover {
+            background-color: navy;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1>Submit Interest Form Here!</h1>
+        </div>
+        
+        <form action="lab2_p2.html">
+            <div class="textboxes">
+                <label for="Firstname">First Name:</label>
+                <input type="text" id="Firstname" name="Firstname" required>
+                <br>
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="Lastname" name="Lastname" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <input type="submit" value="Submit">
+            </div>
+        </form> 
+    </body>
+
+<html>
